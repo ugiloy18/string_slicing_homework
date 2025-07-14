@@ -7,4 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return s[:n]
+print(main("hello", 2))
+print(main("world", 0))
